@@ -7,7 +7,7 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <form name="contacto" method="post" netlify netlify-honeypot="bot-field">
-    <input type="text" name="bot-field" />
+    <input type="hidden" name="form-name" value="contacto" />
     <p>
         <label>Your Name: <input type="text" name="name" /></label>
     </p>
